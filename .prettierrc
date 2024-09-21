@@ -1,0 +1,32 @@
+{
+	"semi": true,
+	"printWidth": 120,
+	"useTabs": true,
+	"tabWidth": 2,
+	"trailingComma": "none",
+	"endOfLine": "auto",
+	"arrowParens": "always",
+	"quoteProps": "as-needed",
+	"bracketSpacing": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"importOrder": [
+		"^(react/(.*)$)|^(react$)|^(react-(.*)$)",
+		"^(next/(.*)$)|^(next$)|^(next-(.*)$)",
+		"",
+		"^(redux/(.*)$)|^(redux$)",
+		"<THIRD_PARTY_MODULES>",
+		"",
+		"^@/shared",
+		"^@/skeletons",
+		"^@/ui",
+		"^@/config",
+		"^@/stores",
+		"^@/hooks",
+		"^@/lib",
+		"",
+		"^[./]"
+	],
+	"plugins": ["prettier-plugin-tailwindcss", "@ianvs/prettier-plugin-sort-imports"]
+}
